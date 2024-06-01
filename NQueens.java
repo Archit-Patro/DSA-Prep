@@ -8,6 +8,7 @@ public class NQueens {
         System.out.println();
         
         solveNQueens(n);
+        sc.close();
     }
 
     private static void solveNQueens(int n) {

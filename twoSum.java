@@ -32,5 +32,6 @@ public class twoSum {
         else {
             System.out.println("No two sum solution found");
         }
+        sc.close();
     }
 }
