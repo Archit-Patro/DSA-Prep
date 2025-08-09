@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class twoSum {
-    public static int[] Solution(int[] nums, int target) { // Make the method static
+    public static int[] Solution(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
